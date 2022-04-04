@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardGrid, Container, Header } from "./Elements";
+import { motion } from "framer-motion";
 import "./App.css";
 import Menu from "./Menu";
 import blue from "./blue.png";
@@ -8,14 +9,33 @@ import black from "./black.png";
 import green from "./green.png";
 
 function App() {
+  const [value, setValue] = useState(0);
+
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+    >
       <Header>
         <Menu />
         <h1>Header</h1>
       </Header>
       <Container>
-        <h2>Super Cool</h2>
+        <motion.h2
+          initial={{ x: -100 + "px" }}
+          animate={{ x: value + "px" }}
+          transition={{ duration: 1 }}
+        >
+          Super Cool
+        </motion.h2>
+        <input
+          type="range"
+          min="-100"
+          max="100"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+        />
         <CardGrid>
           <Card style={{ background: "var(--purp)" }}>
             <h3>Some card</h3>
@@ -35,7 +55,7 @@ function App() {
           </Card>
         </CardGrid>
       </Container>
-    </div>
+    </motion.div>
   );
 }
 
