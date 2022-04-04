@@ -10,6 +10,7 @@ import green from "./green.png";
 
 function App() {
   const [value, setValue] = useState(0);
+  const [isToggled, setIsToggled] = useState(1);
 
   return (
     <motion.div
@@ -24,11 +25,14 @@ function App() {
       <Container>
         <motion.h2
           initial={{ x: -100 + "px" }}
-          animate={{ x: value + "px" }}
-          transition={{ duration: 1 }}
+          animate={{ x: value * 2 + "px", opacity: isToggled }}
+          transition={{ duration: 2 }}
         >
           Super Cool
         </motion.h2>
+        <button onClick={() => setIsToggled((prev) => (prev ? 0 : 1))}>
+          Toggle
+        </button>
         <input
           type="range"
           min="-100"
