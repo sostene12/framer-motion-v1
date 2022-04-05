@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/framer-motion-v1/static/css/main.13d0a309.chunk.css",
+    "main.js": "/framer-motion-v1/static/js/main.d915530b.chunk.js",
+    "main.js.map": "/framer-motion-v1/static/js/main.d915530b.chunk.js.map",
+    "runtime-main.js": "/framer-motion-v1/static/js/runtime-main.04ad9a14.js",
+    "runtime-main.js.map": "/framer-motion-v1/static/js/runtime-main.04ad9a14.js.map",
+    "static/js/2.9cf8e510.chunk.js": "/framer-motion-v1/static/js/2.9cf8e510.chunk.js",
+    "static/js/2.9cf8e510.chunk.js.map": "/framer-motion-v1/static/js/2.9cf8e510.chunk.js.map",
+    "index.html": "/framer-motion-v1/index.html",
+    "precache-manifest.507b014ef775afb01273c637d444a476.js": "/framer-motion-v1/precache-manifest.507b014ef775afb01273c637d444a476.js",
+    "service-worker.js": "/framer-motion-v1/service-worker.js",
+    "static/css/main.13d0a309.chunk.css.map": "/framer-motion-v1/static/css/main.13d0a309.chunk.css.map",
+    "static/js/2.9cf8e510.chunk.js.LICENSE.txt": "/framer-motion-v1/static/js/2.9cf8e510.chunk.js.LICENSE.txt",
+    "static/media/black.png": "/framer-motion-v1/static/media/black.630661b2.png",
+    "static/media/blue.png": "/framer-motion-v1/static/media/blue.4b46210e.png",
+    "static/media/green.png": "/framer-motion-v1/static/media/green.671f7afd.png",
+    "static/media/purp.png": "/framer-motion-v1/static/media/purp.b12a7d0e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04ad9a14.js",
+    "static/js/2.9cf8e510.chunk.js",
+    "static/css/main.13d0a309.chunk.css",
+    "static/js/main.d915530b.chunk.js"
+  ]
+}
